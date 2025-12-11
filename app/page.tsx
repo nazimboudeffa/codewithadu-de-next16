@@ -330,7 +330,8 @@ export default function Home() {
           <a href="https://learn-gamedev-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn GameDev</a>
           <a href="https://learn-trading-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn Trading</a>
           <a href="https://learn-guitare-next16-phaser3.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Learn Guitare</a>
-          <a href="https://philo-next16.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Philosphy in French</a>
+          <a href="https://maphilosophie.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Philosphy in French</a>
+          <a href="https://malitterature.vercel.app" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Literature in French</a>
         </div>
       </footer>
     </main>
