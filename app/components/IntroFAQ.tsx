@@ -17,10 +17,10 @@ export default function IntroFAQ() {
 
   const items: (FaqItem & { answer: string })[] = [
     { id: 'line1', text: faq.questions.line1, answer: faq.answers.line1, icon: '💬', gradient: 'from-lime-400/25 to-green-700/25' },
-    { id: 'line2', text: faq.questions.line2, answer: faq.answers.line2, icon: '💡', gradient: 'from-cyan-400/20 to-blue-600/20' },
+    { id: 'line2', text: faq.questions.line2, answer: faq.answers.line2, icon: '💡', gradient: 'from-fuchsia-400/20 to-purple-600/20' },
     { id: 'line3', text: faq.questions.line3, answer: faq.answers.line3, icon: '⏱️', gradient: 'from-emerald-400/20 to-green-600/20' },
-    { id: 'line4', text: faq.questions.line4, answer: faq.answers.line4, icon: '🎁', gradient: 'from-amber-400/25 to-orange-600/25' },
-    { id: 'line5', text: faq.questions.line5, answer: faq.answers.line5, icon: '🌿', gradient: 'from-fuchsia-400/20 to-purple-600/20' },
+    { id: 'line4', text: faq.questions.line4, answer: faq.answers.line4, icon: '🎁', gradient: 'from-cyan-400/20 to-blue-600/20' },
+    { id: 'line5', text: faq.questions.line5, answer: faq.answers.line5, icon: '🌿', gradient: 'from-amber-400/25 to-orange-600/25' },
   ];
 
   const [open, setOpen] = useState<string | null>(items[0].id);
