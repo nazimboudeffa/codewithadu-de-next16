@@ -288,14 +288,14 @@ export default function Home() {
 
     <IntroFAQ />
 
-    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 bg-gradient-to-br from-green-50 via-teal-50 to-emerald-50 relative overflow-hidden">
+    <section className="flex flex-col items-center justify-center min-h-screen py-12 sm:py-16 bg-linear-to-br from-green-50 via-teal-50 to-emerald-50 relative overflow-hidden">
       <div className="relative z-10 text-center mb-8 sm:mb-12 px-4">
         <p className="text-gray-800 text-xl sm:text-2xl md:text-3xl font-semibold mb-4 sm:mb-6">
           <span className="border-b-2 border-gray-800/50 group-hover:border-green-600 transition-colors duration-300">{t.footer.keepInTouch}</span>
         </p>
         <div className="flex justify-center items-center gap-4 mb-4">
-          <Link href="https://www.linkedin.com/in/nazimboudeffa" target="_blank" rel="noopener noreferrer">
-            <Image src="/linkedin-logo.png" alt="LinkedIn" width={40} height={40} />
+          <Link href="https://www.linkedin.com/in/nazim-b-4422b43a2" target="_blank" rel="noopener noreferrer">
+            <Image src="/linkedin-logo.png" alt="LinkedIn" width={64} height={64} />
           </Link>
           <Link href="https://substack.com/@nazimboudeffa" target="_blank" rel="noopener noreferrer">
             <Image src="/substack-logo.png" alt="Substack" width={40} height={40} />
