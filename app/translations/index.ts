@@ -66,7 +66,7 @@ export const translations = {
         },
       },
       footer: {
-        keepInTouch: "KEEP IN TOUCH ON LINKEDIN",
+        keepInTouch: "KEEP IN TOUCH",
         note: "Even if it is serious, all this work is in progress for the passion and to improve my web development skills."
       }
     },
@@ -142,7 +142,7 @@ export const translations = {
         },
       },
       footer: {
-        keepInTouch: "RESTONS EN CONTACT SUR LINKEDIN",
+        keepInTouch: "RESTONS EN CONTACT",
         note: "Même si c'est sérieux, tout ce travail est en cours pour la passion et pour améliorer mes compétences en développement web.",
       }
     },
